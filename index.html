@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>paiement-tshirt</title>
+    <title>Ma Page</title>
     <style>
-
+        /* Fond noir et centrage du contenu */
         body {
             display: flex;
             justify-content: center;
@@ -15,6 +15,7 @@
             margin: 0;
         }
 
+        /* Styles du bouton */
         .pp-KAQVCXLT6T97G {
             text-align: center;
             border: none;
@@ -25,30 +26,22 @@
             font-weight: bold;
             background-color: #00AB19;
             color: #000000;
-            font-family: 'Inter', Arial, sans-serif;
+            font-family: "Helvetica Neue", Arial, sans-serif;
             font-size: 1rem;
             line-height: 1.25rem;
             cursor: pointer;
         }
-        
+
+        /* Styles du formulaire */
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 0.5rem;
-            background: black;
+            background: white;
             padding: 20px;
             border-radius: 10px;
         }
-        .paypal-section {
-    display: inline-block;
-    border: 2px solid #00AB19; 
-    border-radius: 10px; 
-    padding: 5px 10px; 
-    color: white; 
-    font-weight: bold; 
-}
-
     </style>
 </head>
 <body>
@@ -56,7 +49,7 @@
 <form action="https://www.paypal.com/ncp/payment/KAQVCXLT6T97G" method="post" target="_blank">
   <input class="pp-KAQVCXLT6T97G" type="submit" value="Acheter" />
   <img src="https://www.paypalobjects.com/images/Debit_Credit_APM.svg" alt="cards" />
-  <section class="paypal-section"> paiement géré par <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+  <section> Optimisé par <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
 </form>
 
 </body>
